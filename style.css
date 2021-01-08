@@ -1,0 +1,716 @@
+/*-=--=-=-=-== Google fonts -=-=-=-=-=-=-*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/*
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+*/
+
+/*=-=-=-=Common CSS=-=-=-=*/
+
+*{
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+p{
+	font-size: 14px;
+	 font-family: 'Open Sans', sans-serif;
+	 color: #A1898B;
+}
+
+.axit-border{
+	width: 60px;
+	height: 2px;
+	background: #fff;
+	border: none;
+	margin: 30px 0;
+}
+.axit-border-down{
+	width: 60px;
+	height: 2px;
+	background: #fff;
+	border: none;
+	margin: 30px 0;
+	display: none;
+}
+.axit-border-red-left{
+	width: 60px;
+	height: 2px;
+	background: #ff8b38;
+	border: none;
+	margin: 30px 0;
+}
+
+
+/*=-=-=-=Header CSS=-=-=-=*/
+.axit-header-area{
+	background: url(images/banner1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+
+.axit-navbar-area{
+	background: #000000;
+	width: 100%;
+	height: 70px;
+	padding: 20px;
+	padding-top: -50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+.logo{
+	float: left;
+}
+
+.menu-icon{
+	display: none;
+}
+
+.menu{
+	float: right;
+
+}
+.close{
+	display: none;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{
+	list-style: none;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	display: block;
+	color: #fff;
+	font-family: 'Oswald';
+}
+
+.header-left {
+	color: #ffffff;
+	margin-top: 160px;
+}
+.header-left img{
+		margin-bottom: 30px;
+		width: auto;
+		height: auto;
+}
+.header-left h3 {
+	margin-bottom: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 300;
+}
+.header-left p{
+	margin-bottom: 40px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 14px;
+}
+.header-left button{
+	color: #ffffff;
+	border: 2px solid #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    transition: .5s;
+	padding: 8px 25px;
+	font-weight: 300;
+}
+.header-left button:hover{
+	color: #000000;
+	background: #ffffff;
+}
+.header-right{
+	width: 350px;
+	height: 370px;
+	background: #ffffff;
+	margin-top: 160px;
+	float: right;
+	position: relative;
+}
+.form-top{
+	width: 100%;
+	height: 50px;
+	background: #f5f5f5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.form-top h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 8px;
+}
+.form-top h3 span{
+	color: #ff8b38;
+}
+.form-content{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.form-content input{
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+
+.form-footer{
+	width: 100%;
+	height: 50px;
+	background: #ff9b51;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.form-footer a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.form-footer:hover{
+	opacity: .8;
+}
+/*=-=-=-=Brand bar CSS=-=-=-=*/
+
+
+
+.axit-brand-bar-area {
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	
+}
+.brand-social-info{
+	float: ;
+	margin-top: 
+}
+.brand-social-info h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.brand-social-info p{}
+.brand-social-icon{
+	margin-top: 15px;
+	margin-left: 50px;
+}
+.brand-social-icon a {
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	color: #cccccc;
+	margin-right: 50px;
+}
+.brand-social-icon a:hover{
+	color: #666666;
+}
+.brand-social-icon a:last-child{
+	transform: rotate(45deg);
+}
+
+/*=-=-=-=Features CSS=-=-=-=*/
+
+.features-tabs{
+	background: #f5f5f5;
+	padding: 80px 0;
+}
+
+.features-tabs {}
+.tab{
+	display: block;
+}
+.tab button{
+	width: 100px;
+	height: 100px;
+	background: #333333;
+	border: none;
+	color: #fff;
+	margin-bottom: 2px;
+	font-weight: 700;
+
+}
+.tab button:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.tab button.active{
+	background: #ff8b38;
+}
+
+
+
+.tabcontent{
+	display: ;
+}
+.tabcontent h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 25px;
+	font-size: 21px;
+	color: #000000;
+}
+.tabcontent p{
+	font-size: 12px;
+}
+.tabcontent button {
+	background: #ff8b38;
+	color: #ffffff;
+	padding: 7px 13px;
+	border: none;
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.tabcontent button:hover{
+	opacity: .8;
+}
+.features-tab-img{}
+.features-tab-img img{
+	width: auto;
+	height: auto;
+}
+
+
+
+.features-sub{
+	background: #ffffff;
+	padding: 80px 0;
+}
+.features-sub-img{}
+.features-sub-img img{}
+.features-sub-img2{
+	display: none;
+}
+.features-sub-info{}
+.features-sub-info h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+	margin-top: -30px;
+}
+
+.features-sub-info p {
+	margin-bottom: 29px;
+	font-size: 12px;
+}
+.features-sub-title{
+	display: flex;
+}
+.features-sub-title-icon{
+	width: 32px;
+	height: 30px;
+	background: #ffffff;
+	border-radius: 50%;
+	color: #ff8b38;
+	border: 1px solid #ff8b38;
+	margin-right: 30px;
+	font-size: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.features-sub-title-icon i{
+	
+}
+.features-sub-title-info h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.features-sub-title-info p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 25px;
+	font-size: 11px;
+}
+
+.features-standard{
+	background: #f5f5f5 ;
+	padding: 80px 0;
+}
+.features-standard-info{}
+.features-standard-info h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.features-standard-info p{
+	margin-bottom: 29px;
+	font-size: 16px;
+}
+.features-standard-img{}
+.features-standard-img img{}
+
+
+/*=-=-=-=About CSS=-=-=-=*/
+
+
+.axit-about-area{
+	background: #ffffff ;
+	padding: 80px 0;
+}
+
+
+.section-title{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.section-title h2{
+	 font-family: 'Raleway', sans-serif;
+}
+
+.axit-border-red{
+	width: 60px;
+	height: 2px;
+	background: #ff8b38;
+	border: none;
+	margin: 30px auto;
+}
+.section-title p{}
+
+
+.axit-about-item{
+	text-align: center;
+}
+.about-icon{
+	width: 60px;
+	height: 60px;
+	padding: 20px 20px;
+	color: #ff8b38;
+	border: 1px solid #ff8b38;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	margin-top: 80px;
+}
+.about-icon i{}
+.about-info h4{
+	margin-bottom: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+.about-info p{}
+
+
+/*=-=-=-=About CSS=-=-=-=*/
+
+
+.axit-pricing-area{
+	background: #F5F5F5;
+	padding: 80px 0;
+}
+
+
+.price-item span:nth-child(5){
+	margin-top: -47px;
+}
+
+.price-item-top{
+	width: 350px;
+	height: ;
+	background: #333333;
+	text-align: center;
+	color: #ffffff;
+	border-bottom: 5px solid #ff8b38;
+}
+
+.price-item-top p {
+	padding: 10px 0;
+	background: #ff8b38;
+	margin-bottom: 0px;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.price-item-top h4 {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	font-size: 27px;
+	border: 1px solid #fff;
+}
+.price-item-top h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 60px;
+	padding: 25px 0;
+}
+.price-item-top h1{
+	font-size: ;
+}
+.price-item-top span {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	color: #adadad;
+	display: block;
+	padding-bottom: 21px;
+}
+
+
+
+.price-item-bottom{
+	width: 350px;
+	height: auto;
+	background: #ffffff;
+	text-align: center;
+	margin-top: -16px;
+	box-shadow: 1px 1px 1px -1px;
+	height: 350px;
+
+	
+}
+.price-item-bottom span{
+	display: block;
+	color: #86878b;
+	font-family: 'Open Sans', sans-serif;
+	font: 14px;
+}
+
+.axit-pricing-area .section-title p{
+	margin-bottom: 100px;
+}
+
+
+
+/*=-=-=-=Testimonials CSS=-=-=-=*/
+
+
+.axit-testimonials-area{
+	background: #ffffff;
+	padding: 80px 0;
+}
+
+.testimonials-item{
+
+}
+.testimonials-item-comment{
+	width: 250px;
+	height: 125px;
+	background: #f5f5f5;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.testimonials-item-comment p {
+	padding: 25px;
+	font-size: 13px;
+	font-style: italic;
+	padding-top: 13px;
+}
+.testimonials-item-img-details{
+	display: flex;
+	text-align: center;
+}
+
+.testimonials-item-img{}
+.testimonials-item-img img {
+	width: auto;
+	height: auto;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.testimonials-item-details {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.testimonials-item-details h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.testimonials-item-details p {
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 5px;
+}
+
+
+/*=-=-=-=Stylish CSS=-=-=-=*/
+
+.axit-stylish-area{
+	background: url(images/banner2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+
+.axit-stylish-area .section-title{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.axit-stylish-area .section-title h2{
+	 font-family: 'Raleway', sans-serif;
+	 color: #ffffff;
+}
+.axit-stylish-area .section-title p{
+	color: #ffffff;
+}
+
+.axit-stylish-area button{
+	color: #ffffff;
+	border: 2px solid #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    transition: .5s;
+	padding: 8px 25px;
+	font-weight: 600;
+	background: transparent;
+	margin-top: 30px;
+}
+.axit-stylish-area button:hover{
+	color: #000000;
+	background: #ffffff;
+}
+
+.axit-stylish-area .axit-border{
+	width: 60px;
+	height: 2px;
+	background: #fff;
+	border: none;
+	margin: 0 auto;
+	margin-top: 30px ;
+	margin-bottom: 30px;
+}
+
+
+/*=-=-=-=Contact CSS=-=-=-=*/
+
+
+.axit-contact-area{
+	background: #ffffff;
+	padding: 80px 0;
+}
+
+.contact-form{}
+.contact-form input{
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 30px;
+	color: #BDC2D3;
+}
+.contact-form .textarea{
+	height: 173px;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 30px;
+	color: #BDC2D3;
+}
+
+.message::-moz-input-placeholder {
+   padding-top: 10px;
+}
+
+
+.axit-contact-area button {
+	width: 200px;
+	background: #ff8b38;
+	color: #ffffff;
+	padding: 10px 25px;
+	border: none;
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+.axit-contact-area button:hover{
+	opacity: .8;
+}
+
+
+.axit-footer-area{
+	background: #000000;
+	padding: 20px;
+	text-align: center;
+}
+.social-icon{}
+.social-icon a{
+	color: #0d6efd;
+	text-decoration: underline;
+	font-size: 22px;
+	color: #cccccc;
+	margin-right: 14px;
+}
+.social-icon a:hover{
+	color: #ffffff;
+}
+.footer-text{}
+
+.top{
+	width: 50px;
+	height: 50px;
+	background: #ff8b38 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	color: #ffffff;
+	display: ;
+}
+.top span{
+	font-size: 20px;
+}
+
+.top span i{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+/*Responsive 768px*/
